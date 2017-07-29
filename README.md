@@ -6,6 +6,7 @@ HotSnackbar is a pure js lightweight material snack-bar.
 
 ----------
 Demo
+-------------
 ![hotsnackbar gif demo](demo.gif)
 
 Usage
