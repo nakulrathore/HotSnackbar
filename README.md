@@ -34,6 +34,4 @@ LICENSE
 
 > - icon_text is defined in the js file and has saparate classes
 > - want to add something or improve? be my guest.
-> - why hotSnackbar?  i had a fever of 102 when i wrote this, thats why.
-
 
