@@ -1,0 +1,16 @@
+{
+  "name": "hotsnackbar",
+  "version": "1.0.0",
+  "description": "pure js snackbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snackbar",
+    "toast",
+    "purejs"
+  ],
+  "author": "nakulrathore@outlook.com",
+  "license": "MIT"
+}

@@ -1,0 +1,42 @@
+.hs-snackbar {
+  position: fixed;
+  left: 50%;
+  bottom: -150px;
+  transform: translate(-50%, -50%);
+  min-width: 100px;
+  /* -- */
+  background: #f1c40f;
+  color: #222;
+  border-radius: 3px;
+  padding: 7px 35px;
+  text-align: center;
+  /* -- */
+  font-family: initial;
+  transition: all 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.hs-snackbar-show {
+  -webkit-animation: hsShowAnimation 0.3s ease both;
+}
+.hs-snackbar-hide {
+  -webkit-animation: hsHideAnimation 0.2s ease both;
+}
+@-webkit-keyframes hsHideAnimation {
+  0% {
+    opacity: 1;
+    bottom: 20px;
+  }
+  100% {
+    opacity: 0;
+    bottom: -100px;
+  }
+}
+@-webkit-keyframes hsShowAnimation {
+  0% {
+    opacity: 1;
+    bottom: -100px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 20px;
+  }
+}
