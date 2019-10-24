@@ -2,7 +2,7 @@
 function hsSnackbarWrapper() {
   let hsOldId = 0;
   let hsIntervalToClear = 0;
-  let hsTimeOut = 15000000;
+  let hsTimeOut = 20000;
 
   function hsRemakeSnackbar(randomId, hsOldIdtoHide, textx) {
     clearTimeout(hsIntervalToClear);
@@ -40,4 +40,4 @@ function hsSnackbarWrapper() {
   };
 }
 let hotsnackbar = hsSnackbarWrapper();
-module.exports = hotsnackbar;
+export default hotsnackbar;
