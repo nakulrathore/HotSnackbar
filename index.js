@@ -31,7 +31,7 @@ function hsSnackbarWrapper() {
     }, hsTimeOut);
   }
   return function hotsnackbar(text) {
-    randomId = Math.random();
+    let randomId = Math.random();
     if (hsOldId) {
       hsRemakeSnackbar(randomId, hsOldId, text);
     } else {
