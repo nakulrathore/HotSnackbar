@@ -40,4 +40,4 @@ function hsSnackbarWrapper() {
   };
 }
 let hotsnackbar = hsSnackbarWrapper();
-export default hotsnackbar;
+module.exports =  hotsnackbar;
