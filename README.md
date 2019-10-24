@@ -13,6 +13,7 @@ HotSnackbar is a pure js lightweight snack-bar.
 --import
 
 `import hotsnackbar from 'hotsnackbar';`
+
 `import 'hotsnackbar/style.css'`
 
 --usage
@@ -20,7 +21,8 @@ HotSnackbar is a pure js lightweight snack-bar.
 `hotsnackbar('your toast text here');`
 
 ----------
-LICENSE
+LICENSE:
+
 nobody_cares_what_you_do_with_it_license
 
 ---------
