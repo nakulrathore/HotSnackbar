@@ -1,6 +1,6 @@
 {
   "name": "hotsnackbar",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "pure js snackbar",
   "main": "index.js",
   "scripts": {
