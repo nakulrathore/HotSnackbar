@@ -7,13 +7,16 @@ HotSnackbar is a pure js lightweight snack-bar.
 ## usage
 
 --install:
+
 `npm install hotsnackbar`
 
 --import
+
 `import hotsnackbar from 'hotsnackbar';`
 `import 'hotsnackbar/style.css'`
 
 --usage
+
 `hotsnackbar('your toast text here');`
 
 ----------
